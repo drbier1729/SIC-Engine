@@ -1,0 +1,1816 @@
+{
+  "Entity4294967296": {
+    "Overrides": {
+      "Name": {
+        "name": "Background"
+      },
+      "Transform": {
+        "position": [
+          -24.0,
+          25.0,
+          -10.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          100.0,
+          50.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\background.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "BackgroundTag": {}
+    }
+  },
+  "Entity4294967297": {
+    "Overrides": {
+      "Name": {
+        "name": "Player"
+      },
+      "Transform": {
+        "position": [
+          -24.0,
+          24.75,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\BritishInfantry.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 4
+          },
+          {
+            "name": 2,
+            "start": 5,
+            "end": 11
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "PlayerController": {
+        "acceleration": 100.0,
+        "max_jump_height": 10.0,
+        "time_to_apex": 4.0,
+        "g": 1.25,
+        "init_jump_v": 5.0,
+        "elapsed_time": 69.18093872070313,
+        "last_grounded_time": 69.18093872070313,
+        "last_dash_time": 0.0,
+        "can_jump": true,
+        "is_dashing": false
+      }
+    }
+  },
+  "Entity4294967298": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          18.09368324279785,
+          13.550000190734863,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Patrol": {
+        "startingPoint": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "range": 0.20000000298023224,
+        "speed": 0.6000000238418579,
+        "radius": 0.0,
+        "isDetected": false
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967299": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          59.900001525878906,
+          13.550000190734863,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Patrol": {
+        "startingPoint": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "range": 0.0,
+        "speed": 0.0,
+        "radius": 0.0,
+        "isDetected": false
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967300": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          48.41299819946289,
+          15.899999618530273,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967301": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          34.21699905395508,
+          15.699999809265137,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967302": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          2.6940033435821533,
+          18.950000762939453,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967303": {
+    "Overrides": {
+      "Name": {
+        "name": "Enemy"
+      },
+      "Transform": {
+        "position": [
+          54.400001525878906,
+          13.550000190734863,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          6,
+          3
+        ]
+      },
+      "SpriteAnimator": {
+        "frames": [
+          15,
+          16,
+          17,
+          12,
+          13,
+          14,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 1,
+            "start": 1,
+            "end": 9
+          },
+          {
+            "name": 2,
+            "start": 10,
+            "end": 15
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          },
+          {
+            "name": 0,
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      "Health": {
+        "hp": 100,
+        "max_hp": 100
+      },
+      "EnemyTag": {}
+    }
+  },
+  "Entity4294967304": {
+    "Overrides": {
+      "Name": {
+        "name": "g1"
+      },
+      "Transform": {
+        "position": [
+          -18.600000381469727,
+          22.700000762939453,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967305": {
+    "Overrides": {
+      "Name": {
+        "name": "w1"
+      },
+      "Transform": {
+        "position": [
+          -27.600000381469727,
+          25.350000381469727,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          3.200000047683716,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967306": {
+    "Overrides": {
+      "Name": {
+        "name": "c1"
+      },
+      "Transform": {
+        "position": [
+          -18.600000381469727,
+          28.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967307": {
+    "Overrides": {
+      "Name": {
+        "name": "c2"
+      },
+      "Transform": {
+        "position": [
+          1.5,
+          28.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967308": {
+    "Overrides": {
+      "Name": {
+        "name": "g2"
+      },
+      "Transform": {
+        "position": [
+          0.800000011920929,
+          16.700000762939453,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          9.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967309": {
+    "Overrides": {
+      "Name": {
+        "name": "g3"
+      },
+      "Transform": {
+        "position": [
+          24.700000762939453,
+          11.5,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967310": {
+    "Overrides": {
+      "Name": {
+        "name": "g4"
+      },
+      "Transform": {
+        "position": [
+          57.70000076293945,
+          11.5,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967311": {
+    "Overrides": {
+      "Name": {
+        "name": "c3"
+      },
+      "Transform": {
+        "position": [
+          41.29999923706055,
+          13.600000381469727,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967312": {
+    "Overrides": {
+      "Name": {
+        "name": "g5"
+      },
+      "Transform": {
+        "position": [
+          41.900001525878906,
+          16.600000381469727,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          7.5,
+          3.700000047683716,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967313": {
+    "Overrides": {
+      "Transform": {
+        "position": [
+          0.0,
+          -14.699999809265137,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  },
+  "Entity4294967314": {
+    "Overrides": {
+      "Transform": {
+        "position": [
+          70.69999694824219,
+          0.5,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          20.0,
+          2.0,
+          20.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+        "tile": [
+          4.0,
+          0.25
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "GroundTag": {}
+    }
+  }
+}

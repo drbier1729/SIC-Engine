@@ -1,0 +1,27 @@
+REGISTER_COMPONENT_SYSTEM(FollowCamSystem, PlayerController)
+REGISTER_COMPONENT_SYSTEM_DT(PlayerControllerSystem, PlayerController)
+REGISTER_COMPONENT_SYSTEM(GrabSystem, Grabber)
+REGISTER_COMPONENT_SYSTEM(ThrowSystem, Grabber)
+
+REGISTER_COMPONENT_SYSTEM(PatrolSystem, Patrol)
+REGISTER_COMPONENT_SYSTEM(DestroyOutOfBoundsSystem, Transform)
+REGISTER_COMPONENT_SYSTEM(DrawTextSystem, Text)
+REGISTER_COMPONENT_SYSTEM(DrawCastSystem, Text)
+REGISTER_COMPONENT_SYSTEM(DrawSpritesSystem, SpriteRenderer)
+REGISTER_COMPONENT_SYSTEM(UpdateFrameSystem, SpriteAnimator)
+REGISTER_COMPONENT_SYSTEM(PlayerAnimatorControllerSystem, SpriteAnimator)
+
+REGISTER_COMPONENT_SYSTEM(ReadDataFromPhysicsWorldSystem, Body)
+REGISTER_COMPONENT_SYSTEM(WriteDataToPhysicsWorldSystem, Body)
+REGISTER_COMPONENT_SYSTEM(DebugDrawCollidersSystem, Body)
+
+REGISTER_COMPONENT_SYSTEM(InitMenuSystem, MenuTag)
+REGISTER_COMPONENT_SYSTEM(CloseMenuSystem, MenuTag)
+REGISTER_COMPONENT_SYSTEM(MenuClickSystem, Text)
+REGISTER_COMPONENT_SYSTEM(CloseTextSystem, Text)
+
+REGISTER_COMPONENT_SYSTEM(SceneChangeSystem, CollidingWith)
+REGISTER_COMPONENT_SYSTEM(CheatCodeSystem, FadeScreen)
+
+REGISTER_COMPONENT_SYSTEM_DT(CalculateFadeSystem, FadeScreen)
+REGISTER_COMPONENT_SYSTEM(RenderFadeSystem, FadeScreen)

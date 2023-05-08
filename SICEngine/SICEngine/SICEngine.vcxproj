@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bc8630f4-6cda-46bf-9c0e-c8da0b408cea}</ProjectGuid>
+    <RootNamespace>SICEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>LightsOut</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dependencies\FMOD\inc;..\Dependencies\rapidjson\include\rapidjson;..\Dependencies\GLM\glm;..\Dependencies\glew-2.1.0\include\GL;..\Dependencies\SDL2\include;..\Dependencies\SDL2_image-2.0.5\include;..\Dependencies\FreeType\include;..\Dependencies\;.\SICEngine\externals;.\SICEngine\externals\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;fmodL_vc.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dependencies\glew-2.1.0\lib\x64;..\Dependencies\SDL2\lib\x64;..\Dependencies\SDL2_image-2.0.5\lib\x64;..\Dependencies\FreeType\lib;..\Dependencies\FMOD\lib\x64\Deb;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dependencies\FMOD\inc;..\Dependencies\rapidjson\include\rapidjson;..\Dependencies\GLM\glm;..\Dependencies\glew-2.1.0\include\GL;..\Dependencies\SDL2\include;..\Dependencies\SDL2_image-2.0.5\include;..\Dependencies\;.\SICEngine\externals;..\Dependencies\FreeType\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Dependencies\glew-2.1.0\lib\x64;..\Dependencies\SDL2\lib\x64;..\Dependencies\SDL2_image-2.0.5\lib\x64;..\Dependencies\FMOD\lib\x64\Rel;..\Dependencies\FreeType\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;fmod_vc.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>$(OutDir)\LightsOut.exe</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AISystems.cpp" />
+    <ClCompile Include="AnimatorController.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollisionEvents.cpp" />
+    <ClCompile Include="ComponentSerialization.cpp" />
+    <ClCompile Include="Components.cpp" />
+    <ClCompile Include="DestroyEvent.cpp" />
+    <ClCompile Include="Entities.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="externals\Arbiter.cpp" />
+    <ClCompile Include="externals\Body.cpp" />
+    <ClCompile Include="externals\Collide.cpp" />
+    <ClCompile Include="externals\imgui\imgui.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_demo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_draw.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_impl_opengl3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_impl_sdl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_stdlib.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_tables.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_widgets.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="externals\Joint.cpp" />
+    <ClCompile Include="externals\World.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FrameRateController.cpp" />
+    <ClCompile Include="GraphicsSystems.cpp" />
+    <ClCompile Include="ImGuiWindow.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="MemResources.cpp" />
+    <ClCompile Include="PhysicsSystems.cpp" />
+    <ClCompile Include="PlayerSystems.cpp" />
+    <ClCompile Include="PuzzlePrototype.cpp" />
+    <ClCompile Include="Reflector.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SICEngine.cpp" />
+    <ClCompile Include="StringId.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="CleanupSystems.cpp" />
+    <ClCompile Include="TestGame.cpp" />
+    <ClCompile Include="Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatorController.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ComponentBase.h" />
+    <ClInclude Include="ComponentSerialization.h" />
+    <ClInclude Include="Components.h" />
+    <ClInclude Include="Entities.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="externals\Arbiter.h" />
+    <ClInclude Include="externals\imgui\imconfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_opengl3.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_opengl3_loader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_sdl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_internal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_stdlib.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_rectpack.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_textedit.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_truetype.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="externals\MathUtils.h" />
+    <ClInclude Include="externals\plf_colony.h" />
+    <ClInclude Include="externals\World.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FrameRateController.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ImGuiWindow.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MemResources.h" />
+    <ClInclude Include="PuzzlePrototype.h" />
+    <ClInclude Include="Reflector.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SICEngine.h" />
+    <ClInclude Include="SICTypes.h" />
+    <ClInclude Include="StringId.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="ComponentSystems.h" />
+    <ClInclude Include="TestGame.h" />
+    <ClInclude Include="Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AreYouSure.json" />
+    <None Include="AreYouSureMenuLevel.json" />
+    <None Include="Background.json" />
+    <None Include="BedroomLevel-1.json" />
+    <None Include="BedroomLevel-2.json" />
+    <None Include="BedroomLevel-3.json" />
+    <None Include="BedroomLevel.json" />
+    <None Include="BlankBlackScreen.json" />
+    <None Include="BouncyBall.json" />
+    <None Include="BoxEntity.json" />
+    <None Include="ChangeWindowButton.json" />
+    <None Include="CircleEntity.json" />
+    <None Include="ComponentSerialization.tpp" />
+    <None Include="ComponentSystems.def" />
+    <None Include="ConfirmGoToCredits.json" />
+    <None Include="ControlsMenu.json" />
+    <None Include="CreditsLevel.json" />
+    <None Include="debug.frag" />
+    <None Include="debug.vert" />
+    <None Include="DynamicBox.json" />
+    <None Include="EnemyEntity.json" />
+    <None Include="EngineConfig.json" />
+    <None Include="Entities.tpp" />
+    <None Include="EventManager.tpp" />
+    <None Include="Events.def" />
+    <None Include="final.frag" />
+    <None Include="final.vert" />
+    <None Include="Components.def" />
+    <None Include="imgui.ini" />
+    <None Include="KitchenLevel.json" />
+    <None Include="MainMenuLevel.json" />
+    <None Include="Level1.json" />
+    <None Include="Level2.json" />
+    <None Include="Level3.json" />
+    <None Include="MuteAudioButton.json" />
+    <None Include="NextLevelTrigger.json" />
+    <None Include="MenuButton.json" />
+    <None Include="PauseMenuLevel.json" />
+    <None Include="Platform.json" />
+    <None Include="PatrolEntity.json" />
+    <None Include="Projectile.json" />
+    <None Include="StaticBox.json" />
+    <None Include="TestSceneSave.json" />
+    <None Include="GroundEntity.json" />
+    <None Include="Player.json" />
+    <None Include="TestScene.json" />
+    <None Include="textRenderer.frag" />
+    <None Include="textRenderer.vert" />
+    <None Include="TutorialLevel.json" />
+    <None Include="Wall.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Sprites\lightbulb.ico" />
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

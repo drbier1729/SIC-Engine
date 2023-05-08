@@ -1,0 +1,152 @@
+{
+    "Files": [
+        {
+            "File": "Background.json"
+        },
+        {
+            "File": "BoxEntity.json"
+        },
+        {
+            "File": "CircleEntity.json"
+        },
+        {
+            "File": "GroundEntity.json"
+        },
+        {
+            "File": "Wall.json"
+        },
+        {
+            "File": "MusicBox.json"
+        },
+        {
+            "File": "Player.json"
+        },
+        {
+            "File": "EnemyEntity.json"
+        },
+        {
+            "File": "TestEntityDerived.json"
+        },
+        {
+            "File": "TestScene.json"
+        },
+        {
+            "File": "TestSceneSave.json"
+        },
+        {
+            "File": "TestSceneSave2.json"
+        },
+        {
+            "File": "PatrolEntity.json"
+        },
+        {
+            "File": "StealthLevel.json"
+        },
+        {
+            "File": "ActionPlatformer_SceneInit.json"
+        },
+        {
+            "File": "BouncyBall.json"
+        },
+        {
+            "File": "ActionPlatformer_SceneSave.json"
+        },
+        {
+            "File": "PuzzleScene.json"
+        },
+        {
+            "File": "PuzzleSceneSave1.json"
+        },
+        {
+            "File": "PuzzleSceneSave2.json"
+        },   
+        {
+            "File": "Projectile.json"
+        },
+        {
+            "File": "Text.json"
+        },
+        {        
+            "File": "StaticBox.json"
+        },
+        {
+            "File": "DynamicBox.json"
+        },
+        {
+            "File": "Platform.json"
+        },
+        {
+            "File": "BedroomLevel.json"
+        },
+        {
+            "File": "BedroomLevel-1.json"
+        },
+        {
+            "File": "BedroomLevel-2.json"
+        },
+        {
+            "File": "BedroomLevel-3.json"
+        },
+        {
+            "File": "BuilderScene.json"
+        },
+		{
+            "File": "KitchenLevel.json"
+        },
+		{
+            "File": "Level1.json"
+        },
+		{
+            "File": "Level2.json"
+        },
+		{
+            "File": "Level3.json"
+        },
+		{
+			"File": "NextLevelTrigger.json"
+        },
+		{
+			"File": "MenuButton.json"
+        },
+        {
+			"File": "ControlsMenu.json"
+        },
+        {
+			"File": "MainMenuLevel.json"
+        },
+        {
+			"File": "BlankBlackScreen.json"
+        },
+        {
+			"File": "PauseMenuLevel.json"
+		},
+        {
+			"File": "AreYouSure.json"
+		},
+		{
+			"File": "TutorialLevel.json"
+		},
+        {
+            "File": "AreYouSureMenuLevel.json"
+        },
+        {
+            "File": "ChangeWindowButton.json"
+        },
+        {
+            "File": "MuteAudioButton.json"
+        },
+        {
+            "File": "SplashLevel1.json"
+        },    
+        {
+            "File": "SplashLevel2.json"
+        },
+        {
+            "File": "ConfirmGoToCredits.json"
+        },
+        {
+            "File": "CreditsLevel.json"
+        }
+    ]
+}
+

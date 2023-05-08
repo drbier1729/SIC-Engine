@@ -1,0 +1,72 @@
+{
+    "Components": {
+        "Name": {
+            "name": "Box"
+        },
+        "Transform": {
+            "position": [
+                -0.0003273105248808861,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -0.00007116957567632198
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "SpriteRenderer": {
+            "texture_file": ".\\Assets\\Sprites\\default.png",
+            "tile": [
+                1.0,
+                1.0
+            ],
+            "spritesheetDimension": [
+                1,
+                1
+            ]
+        },
+        "Body": {
+            "isTrigger": false,
+            "enableRotation": true,
+            "mass": 100.0,
+            "width": [
+                1.0,
+                1.0
+            ],
+            "setWidthManually": false,
+            "restitutionCoeff": 0.800000011920929,
+            "position": [
+                -0.0003273105248808861,
+                0.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.0
+            ],
+            "rotation": -0.00007116957567632198,
+            "velocity": [
+                0.0,
+                0.0
+            ],
+            "angularVelocity": 0.0,
+            "force": [
+                0.0,
+                0.0
+            ],
+            "torque": 0.0,
+            "friction": 0.20000000298023224,
+            "invMass": 0.009999999776482582,
+            "I": 66.66666412353516,
+            "invI": 0.015000000596046448,
+            "isGrounded": false
+        },
+        "GroundTag": {}
+    }
+}

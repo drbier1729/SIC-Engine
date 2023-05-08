@@ -1,0 +1,98 @@
+{
+    "Archetype": "BoxEntity.json",
+    "Components": {
+        "Name": {
+            "name": "Player"
+        },
+        "Transform": {
+            "position": [
+                -5.0,
+                -8.859930992126465,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                2.0,
+                2.0,
+                2.0
+            ]
+        },
+       "SpriteRenderer": {
+      "texture_file": ".\\Assets\\Sprites\\BritishInfantry.png",
+      "shape": "box",
+      "tile": [ 1.0, 1.0 ],
+      "spritesheetDimension": [ 6, 3 ]
+    },
+        "SpriteAnimator": {
+      "frames": [ 16, 17, 12, 13, 14, 9, 10, 11, 6, 7, 8, 3 ],
+      "clips": [
+        {
+          "name": 0,
+          "start": 0,
+          "end": 0
+        },
+        {
+          "name": 1,
+          "start": 1,
+          "end": 4
+        },
+        {
+          "name": 2,
+          "start": 5,
+          "end": 11
+        }
+      ]
+    },
+        "RigidBody": {
+            "velocity": [
+                0.0,
+                -10.450878143310547,
+                0.0,
+                0.0
+            ],
+            "angularVel": 0.0,
+            "mass": 200.0,
+            "invMass": 0.004999999888241291,
+            "restitutionCoeff": 0.15000000596046448,
+            "drag": 0.8999999761581421,
+            "gravityScale": 3.0,
+            "isGrounded": false
+        },
+        "AABB": {
+            "center": [
+                -8.864459037780762,
+                -16.04247283935547,
+                0.0
+            ],
+            "width": 1.0,
+            "length": 2.0,
+            "height": 2.0
+        },
+        "GroundChecker": {
+            "center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "width": 0.0,
+            "height": 0.0
+        },
+        "PlayerController": {
+            "acceleration": 100.0,
+            "max_jump_height": 10.0,
+            "time_to_apex": 4.0,
+            "g": 1.875,
+            "init_jump_v": 7.5,
+            "elapsed_time": 0.0,
+            "last_grounded_time": 0.0,
+            "last_dash_time": 0.0,
+            "can_jump": false,
+            "is_dashing": false
+        }
+    }
+}

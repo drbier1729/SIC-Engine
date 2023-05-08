@@ -1,0 +1,42 @@
+{
+    "Entity4294967296": {
+        "Overrides": {
+            "Name": {
+                "name": "Splash"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    10.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    16.0,
+                    4.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\fmod_Logo.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "SplashTag": {
+                "nextLevel": 1,
+                "fadeIn": true
+            }
+        }
+    }
+}

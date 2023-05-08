@@ -1,0 +1,16 @@
+{
+  "Components": {
+    "Name": {
+      "name": "BoxEntity"
+    },
+
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 2.0, 2.0, 2.0 ]
+    },
+
+    "Body": {
+      "mass": 200.0
+    }
+  }
+}

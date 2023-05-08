@@ -1,0 +1,222 @@
+{
+    "Background": {
+        "Archetype": "Background.json"
+    },
+    "Player": {
+        "Archetype": "Player.json",
+        "Overrides": {
+            "Transform": {
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ],
+                "position": [
+                    -8.864459037780762,
+                    -8.859930992126465,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "Dummy": {
+                "a1": 10,
+                "a2": 10,
+                "a3": 10,
+                "a4": 10,
+                "a5": 10,
+                "a6": 10,
+                "a7": 10,
+                "a8": 10,
+                "a9": 10.0,
+                "a10": 10.0,
+                "a11": [
+                    10.0,
+                    10.0
+                ],
+                "a12": [
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "a13": [
+                    10.0,
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "a14": "Another string",
+                "a15": false
+            }
+        }
+    },
+    "b1": {
+        "Archetype": "BoxEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    -5.0,
+                    -5.0,
+                    0.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\GermanInfantry.png",
+                "spritesheetDimension": [
+                    6,
+                    4
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    22,
+                    23,
+                    24,
+                    16,
+                    17,
+                    18,
+                    19,
+                    12,
+                    13,
+                    14,
+                    15,
+                    8
+                ],
+                "clips": [
+                    {
+                        "name": "idle",
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": "shoot",
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": "run",
+                        "start": 5,
+                        "end": 11
+                    }
+                ]
+            }
+        }
+    },
+    "b2": {
+        "Archetype": "BoxEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    -5.0,
+                    5.0,
+                    0.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+                "spritesheetDimension": [
+                    6,
+                    3
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    15,
+                    16,
+                    17,
+                    12,
+                    13,
+                    14,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    4,
+                    5,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": "idle",
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": "shoot",
+                        "start": 1,
+                        "end": 9
+                    },
+                    {
+                        "name": "run",
+                        "start": 10,
+                        "end": 15
+                    }
+                ]
+            }
+        }
+    },
+    "b3": {
+        "Archetype": "BoxEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    5.0,
+                    5.0,
+                    0.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\heart.png",
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "c1": {
+        "Archetype": "CircleEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    5.0,
+                    -5.0,
+                    0.0
+                ]
+            },
+            "RigidBody": {
+                "angularVel": 1.0
+            }
+        }
+    },
+    "ground": {
+        "Archetype": "GroundEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    0.0,
+                    -20.0,
+                    0.5
+                ]
+            }
+        }
+    },
+    "left_wall": {
+        "Archetype": "WallEntity.json",
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    -20.0,
+                    -20.0,
+                    0.5
+                ]
+            }
+        }
+    }
+}

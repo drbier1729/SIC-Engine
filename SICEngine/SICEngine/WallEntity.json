@@ -1,0 +1,24 @@
+{
+  "Components": {
+
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 20.0, 2.0, 20.0 ]
+    },
+
+    "SpriteRenderer": {
+      "shape": "box",
+      "tile" : [ 4, 0.25 ]
+       
+    },
+
+    "RigidBody": {
+      "mass": 0.0,
+      "restitutionCoeff": 0.9
+    },
+
+    "AABB": {},
+
+    "GroundTag": {}
+  }
+}

@@ -1,0 +1,2026 @@
+{
+    "Entity4294967296": {
+        "Overrides": {
+            "Name": {
+                "name": "Right Boundary"
+            },
+            "Transform": {
+                "position": [
+                    15.5,
+                    10.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    22.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    22.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    15.5,
+                    10.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967297": {
+        "Overrides": {
+            "Name": {
+                "name": "Left Boundary"
+            },
+            "Transform": {
+                "position": [
+                    -15.5,
+                    10.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    22.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    22.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -15.5,
+                    10.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967298": {
+        "Overrides": {
+            "Name": {
+                "name": "Top Boundary"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    21.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    30.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    30.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    30.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    0.0,
+                    21.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967299": {
+        "Overrides": {
+            "Name": {
+                "name": "Bottom Boundary"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    30.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    30.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    30.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967300": {
+        "Overrides": {
+            "Name": {
+                "name": "Bed"
+            },
+            "Transform": {
+                "position": [
+                    -11.0,
+                    5.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    8.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    8.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    8.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -11.0,
+                    5.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967301": {
+        "Overrides": {
+            "Name": {
+                "name": "Low Shelf"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    5.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    6.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    6.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    6.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    0.0,
+                    5.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967302": {
+        "Overrides": {
+            "Name": {
+                "name": "Mid Shelf"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    10.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    6.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    6.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    6.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    0.0,
+                    10.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967303": {
+        "Overrides": {
+            "Name": {
+                "name": "Stool"
+            },
+            "Transform": {
+                "position": [
+                    -5.050000190734863,
+                    2.442430019378662,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    3.9000000953674316,
+                    3.9000000953674316,
+                    3.9000000953674316
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\pushable-box.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 40.0,
+                "width": [
+                    3.9000000953674316,
+                    3.9000000953674316
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -5.050000190734863,
+                    2.442430019378662
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    -2.9802322387695313e-8
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.02500000037252903,
+                "I": 101.4000015258789,
+                "invI": 0.009861933067440987,
+                "isGrounded": true
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967304": {
+        "Overrides": {
+            "Name": {
+                "name": "Box"
+            },
+            "Transform": {
+                "position": [
+                    -11.269000053405762,
+                    1.239999771118164,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.5,
+                    1.5,
+                    1.5
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\pushable-box.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 20.0,
+                "width": [
+                    1.5,
+                    1.5
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 1.0,
+                "forward": false,
+                "position": [
+                    -11.269000053405762,
+                    1.239999771118164
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0000034868717193603516
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.05000000074505806,
+                "I": 7.5,
+                "invI": 0.13333334028720856,
+                "isGrounded": true
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967305": {
+        "Overrides": {
+            "Name": {
+                "name": "Box Stopper"
+            },
+            "Transform": {
+                "position": [
+                    -13.699999809265137,
+                    0.6499999761581421,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.799999952316284,
+                    0.30000001192092896,
+                    0.30000001192092896
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.799999952316284,
+                    0.30000001192092896
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -13.699999809265137,
+                    0.6499999761581421
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967306": {
+        "Overrides": {
+            "Name": {
+                "name": "Dresser"
+            },
+            "Transform": {
+                "position": [
+                    12.5,
+                    6.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    5.0,
+                    13.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    5.0,
+                    13.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    12.5,
+                    6.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967307": {
+        "Overrides": {
+            "Name": {
+                "name": "Half Shelf Low"
+            },
+            "Transform": {
+                "position": [
+                    -14.0,
+                    8.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    0.75,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.0,
+                    0.75
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -14.0,
+                    8.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967308": {
+        "Overrides": {
+            "Name": {
+                "name": "Mid Left Shelf"
+            },
+            "Transform": {
+                "position": [
+                    -7.5,
+                    10.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    5.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    5.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -7.5,
+                    10.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967309": {
+        "Overrides": {
+            "Name": {
+                "name": "High Shelf"
+            },
+            "Transform": {
+                "position": [
+                    -2.0,
+                    15.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    10.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    10.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -2.0,
+                    15.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967310": {
+        "Overrides": {
+            "Name": {
+                "name": "Book Blocker"
+            },
+            "Transform": {
+                "position": [
+                    -6.0,
+                    15.600000381469727,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    0.20000000298023224,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.0,
+                    0.20000000298023224
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -6.0,
+                    15.600000381469727
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967311": {
+        "Overrides": {
+            "Name": {
+                "name": "Book"
+            },
+            "Transform": {
+                "position": [
+                    -2.750999927520752,
+                    15.864998817443848,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    4.0,
+                    0.75,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\pushable-box.png",
+                "tile": [
+                    4.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 60.0,
+                "width": [
+                    4.0,
+                    0.75
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -2.750999927520752,
+                    15.864998817443848
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.000017702579498291016
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.01666666753590107,
+                "I": 82.8125,
+                "invI": 0.012075471691787243,
+                "isGrounded": true
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967312": {
+        "Overrides": {
+            "Name": {
+                "name": "Shelf Peg 1"
+            },
+            "Transform": {
+                "position": [
+                    3.5999999046325684,
+                    9.649999618530273,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.25,
+                    0.25,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    0.25,
+                    0.25
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    3.5999999046325684,
+                    9.649999618530273
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967313": {
+        "Overrides": {
+            "Name": {
+                "name": "Shelf Peg 2"
+            },
+            "Transform": {
+                "position": [
+                    5.400000095367432,
+                    -22.649999618530273,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.25,
+                    0.25,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    0.25,
+                    0.25
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    5.400000095367432,
+                    -22.649999618530273
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967314": {
+        "Overrides": {
+            "Name": {
+                "name": "Shelf Peg 3"
+            },
+            "Transform": {
+                "position": [
+                    6.400000095367432,
+                    9.649999618530273,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.25,
+                    0.25,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    0.25,
+                    0.25
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    6.400000095367432,
+                    9.649999618530273
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967315": {
+        "Overrides": {
+            "Name": {
+                "name": "Mid Shelf Right"
+            },
+            "Transform": {
+                "position": [
+                    8.75,
+                    10.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.5,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.5,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    8.75,
+                    10.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967316": {
+        "Overrides": {
+            "Name": {
+                "name": "Blocking Books"
+            },
+            "Transform": {
+                "position": [
+                    2.0,
+                    13.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.0,
+                    2.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    2.0,
+                    13.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967317": {
+        "Overrides": {
+            "Name": {
+                "name": "Half Shelf High"
+            },
+            "Transform": {
+                "position": [
+                    -14.199999809265137,
+                    13.699999809265137,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    3.0,
+                    0.75,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": true,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    3.0,
+                    0.75
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -14.199999809265137,
+                    13.699999809265137
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967318": {
+        "Overrides": {
+            "Name": {
+                "name": "Player"
+            },
+            "Transform": {
+                "position": [
+                    -9.539591789245605,
+                    1.4399993419647217,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\main.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    4,
+                    4
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    8,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": 2,
+                        "start": 1,
+                        "end": 7
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 100.0,
+                "width": [
+                    0.699999988079071,
+                    1.7000000476837158
+                ],
+                "setWidthManually": true,
+                "restitutionCoeff": 1.0,
+                "forward": true,
+                "position": [
+                    -9.539591789245605,
+                    1.4399993419647217
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.10000000149011612
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    1.140229553928782e-38,
+                    0.000014157294572214596
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.009999999776482582,
+                "I": 28.16666603088379,
+                "invI": 0.03550295904278755,
+                "isGrounded": true
+            },
+            "CollidingWith": {},
+            "PlayerController": {
+                "acceleration": 37.0,
+                "max_jump_height": 0.75,
+                "time_to_apex": 0.5,
+                "g": 6.0,
+                "init_jump_v": 3.0,
+                "elapsed_time": 136.96531677246094,
+                "last_grounded_time": 136.96531677246094,
+                "can_jump": true,
+                "is_dashing": false,
+                "is_hiding": false,
+                "jump_released": true
+            }
+        }
+    },
+    "Entity4294967319": {
+        "Overrides": {
+            "Name": {
+                "name": "LevelChangeTrigger"
+            },
+            "Transform": {
+                "position": [
+                    13.199999809265137,
+                    14.600000381469727,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    4.0,
+                    4.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\lightbulb.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    4.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    13.199999809265137,
+                    14.600000381469727
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "SceneChangeTrigger": {
+                "nextScene": "KitchenLevel.json"
+            },
+            "FadeScreen": {
+                "fadeIn": true,
+                "prevSceneTr": false,
+                "alpha": 1.0,
+                "maximum": 1.0,
+                "time": 1.0,
+                "code_index": 0
+            }
+        }
+    },
+    "Entity4294967320": {
+        "Overrides": {
+            "Name": {
+                "name": "Background"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    9.0,
+                    -1.399999976158142,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    50.5,
+                    39.900001525878906,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\black-background.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "Entity4294967321": {
+        "Overrides": {
+            "Name": {
+                "name": "Blocking Books Right"
+            },
+            "Transform": {
+                "position": [
+                    7.75,
+                    16.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    8.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\platform.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    8.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    7.75,
+                    16.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    }
+}

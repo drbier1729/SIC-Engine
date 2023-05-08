@@ -1,0 +1,951 @@
+{
+    "Entity4294967296": {
+        "Overrides": {
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    -10.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0,
+                    100.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\background.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "Entity4294967297": {
+        "Overrides": {
+            "Name": {
+                "name": "Player"
+            },
+            "Transform": {
+                "position": [
+                    -8.864459037780762,
+                    -8.859930992126465,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\BritishInfantry.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    6,
+                    3
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    16,
+                    17,
+                    12,
+                    13,
+                    14,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": 2,
+                        "start": 5,
+                        "end": 11
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+            "PlayerController": {
+                "acceleration": 100.0,
+                "max_jump_height": 10.0,
+                "time_to_apex": 4.0,
+                "g": 1.875,
+                "init_jump_v": 7.5,
+                "elapsed_time": 0.0,
+                "last_grounded_time": 0.0,
+                "last_dash_time": 0.0,
+                "can_jump": false,
+                "is_dashing": false
+            },
+            "Grabber": {
+                "grabbed": 0,
+                "offset": [
+                    0.0,
+                    0.0
+                ],
+                "grabbing": false
+            }
+        }
+    },
+    "Entity4294967298": {
+        "Overrides": {
+            "Name": {
+                "name": "Enemy"
+            },
+            "Transform": {
+                "position": [
+                    -5.0,
+                    -3.200000047683716,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\GermanInfantry.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    6,
+                    4
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    22,
+                    23,
+                    24,
+                    16,
+                    17,
+                    18,
+                    19,
+                    12,
+                    13,
+                    14,
+                    15,
+                    8,
+                    3,
+                    4,
+                    5,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": 2,
+                        "start": 5,
+                        "end": 11
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+            "Grabbable": {
+                "isGrabbed": false
+            }
+        }
+    },
+    "Entity4294967299": {
+        "Overrides": {
+            "Name": {
+                "name": "Enemy"
+            },
+            "Transform": {
+                "position": [
+                    -0.4000000059604645,
+                    7.800000190734863,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    6,
+                    3
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    15,
+                    16,
+                    17,
+                    12,
+                    13,
+                    14,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    4,
+                    5,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 9
+                    },
+                    {
+                        "name": 2,
+                        "start": 10,
+                        "end": 15
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+            "Grabbable": {
+                "isGrabbed": false
+            }
+        }
+    },
+    "Entity4294967300": {
+        "Overrides": {
+            "Name": {
+                "name": "CircleEntity"
+            },
+            "Transform": {
+                "position": [
+                    3.5999999046325684,
+                    -14.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    4.0,
+                    4.0,
+                    4.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\circle.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "Entity4294967301": {
+        "Overrides": {
+            "Name": {
+                "name": "BoxEntity"
+            },
+            "Transform": {
+                "position": [
+                    5.0,
+                    -10.800000190734863,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\heart.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "GroundTag": {},
+            "Grabbable": {
+                "isGrabbed": false
+            }
+        }
+    },
+    "Entity4294967302": {
+        "Overrides": {
+            "Name": {
+                "name": "L1"
+            },
+            "Transform": {
+                "position": [
+                    9.399999618530273,
+                    -20.020000457763672,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    45.0,
+                    2.0,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    4.0,
+                    0.25
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967303": {
+        "Overrides": {
+            "Name": {
+                "name": "L2"
+            },
+            "Transform": {
+                "position": [
+                    -0.6000000238418579,
+                    -5.5,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    20.0,
+                    2.0,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    4.0,
+                    0.25
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967304": {
+        "Overrides": {
+            "Name": {
+                "name": "L3"
+            },
+            "Transform": {
+                "position": [
+                    7.400000095367432,
+                    4.800000190734863,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    8.5,
+                    2.0,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    4.0,
+                    0.25
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967305": {
+        "Overrides": {
+            "Name": {
+                "name": "L2_5"
+            },
+            "Transform": {
+                "position": [
+                    25.5,
+                    -0.10000000149011612,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    13.0,
+                    2.0,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    4.0,
+                    0.25
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967306": {
+        "Overrides": {
+            "Name": {
+                "name": "left_wall"
+            },
+            "Transform": {
+                "position": [
+                    -11.800000190734863,
+                    -1.850000023841858,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    34.29999923706055,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    0.25,
+                    4.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "Entity4294967307": {
+        "Overrides": {
+            "Name": {
+                "name": "right_wall"
+            },
+            "Transform": {
+                "position": [
+                    33.29999923706055,
+                    14.0,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    70.0999984741211,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    0.25,
+                    4.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "Entity4294967308": {
+        "Overrides": {
+            "Name": {
+                "name": "short_wall"
+            },
+            "Transform": {
+                "position": [
+                    17.899999618530273,
+                    4.900000095367432,
+                    0.5,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    12.0,
+                    20.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    0.25,
+                    4.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            }
+        }
+    }
+}

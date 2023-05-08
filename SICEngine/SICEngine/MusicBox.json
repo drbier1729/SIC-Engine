@@ -1,0 +1,30 @@
+{
+    "Components": {
+        "Name": {
+            "name": "Player"
+        },
+        "Transform": {
+            "position": [
+                -8.864459037780762,
+                -8.859930992126465,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                2.0,
+                2.0,
+                2.0
+            ]
+        },
+        "SpriteRenderer": {
+            "texture_file": ".\\Assets\\Sprites\\BritishInfantry.png"
+        },
+        "SpriteAnimator": {},
+        "PlayerController": {}
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Entity4294967296": {
+        "Overrides": {
+            "Name": {
+                "name": "Splash"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    10.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    18.0,
+                    12.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\DigiPen_Logo.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "SplashTag": {
+                "nextLevel": 0,
+                "fadeIn": true
+            }
+        }
+    }
+}

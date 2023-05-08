@@ -1,0 +1,74 @@
+{
+    "Archetype": "StaticBox.json",
+    "Components": {
+        "Name": {
+            "name": "Platform"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "SpriteRenderer": {
+            "texture_file": ".\\Assets\\Sprites\\platform.png",
+            "tile": [
+                1.0,
+                1.0
+            ],
+            "spritesheetDimension": [
+                1,
+                1
+            ]
+        },
+        "Body": {
+            "isTrigger": false,
+            "enableRotation": false,
+            "mass": 3.4028234663852886e38,
+            "width": [
+                1.0,
+                1.0
+            ],
+            "setWidthManually": false,
+            "restitutionCoeff": 0.800000011920929,
+            "forward": true,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.0
+            ],
+            "rotation": 0.0,
+            "velocity": [
+                0.0,
+                0.0
+            ],
+            "angularVelocity": 0.0,
+            "force": [
+                0.0,
+                0.0
+            ],
+            "torque": 0.0,
+            "friction": 0.20000000298023224,
+            "invMass": 0.0,
+            "I": 3.4028234663852886e38,
+            "invI": 0.0,
+            "isGrounded": false
+        },
+        "GroundTag": {}
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SICEngine", "SICEngine\SICEngine.vcxproj", "{BC8630F4-6CDA-46BF-9C0E-C8DA0B408CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8630F4-6CDA-46BF-9C0E-C8DA0B408CEA}.Debug|x64.ActiveCfg = Debug|x64
+		{BC8630F4-6CDA-46BF-9C0E-C8DA0B408CEA}.Debug|x64.Build.0 = Debug|x64
+		{BC8630F4-6CDA-46BF-9C0E-C8DA0B408CEA}.Release|x64.ActiveCfg = Release|x64
+		{BC8630F4-6CDA-46BF-9C0E-C8DA0B408CEA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB93916-9001-43C9-813C-3A93ED1E0680}
+	EndGlobalSection
+EndGlobal

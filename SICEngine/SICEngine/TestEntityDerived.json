@@ -1,0 +1,19 @@
+{
+
+  "Archetype": "BoxEntity.json",
+
+  "Components": {
+
+    "Name": {
+      "name": "TestEntityDerived"
+    },
+
+    "Transform": {
+      "scale": [ 10.0, 10.0, 10.0 ]
+    },
+
+    "SpriteAnimator": {}
+
+  }
+
+}

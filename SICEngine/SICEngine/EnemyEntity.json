@@ -1,0 +1,58 @@
+{
+    "Archetype": "BoxEntity.json",
+    "Components": {
+        "Name": {
+            "name": "Enemy"
+        },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\GermanGunner.png",
+                "spritesheetDimension": [
+                    6,
+                    3
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    15,
+                    16,
+                    17,
+                    12,
+                    13,
+                    14,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    4,
+                    5,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 9
+                    },
+                    {
+                        "name": 2,
+                        "start": 10,
+                        "end": 15
+                    }
+                ]
+            },
+
+      "Health": {},
+
+      "EnemyTag": {},
+
+      "Grabbable": {}
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Components": {
+    "Name": {
+      "name": "GroundEntity"
+    },
+
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 20.0, 2.0, 20.0 ]
+    },
+
+    "SpriteRenderer": {
+      "shape": "box",
+      "tile": [ 4, 0.25 ]
+
+    },
+
+    "Body": { },
+
+    "GroundTag": {}
+  }
+}

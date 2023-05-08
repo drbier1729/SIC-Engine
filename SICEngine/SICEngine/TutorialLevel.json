@@ -1,0 +1,1478 @@
+{
+    "Entity4294967296": {
+        "Overrides": {
+            "Name": {
+                "name": "BoundaryBottom"
+            },
+            "Transform": {
+                "position": [
+                    72.5,
+                    -11.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    176.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    176.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    72.5,
+                    -11.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967297": {
+        "Overrides": {
+            "Name": {
+                "name": "BoundaryRight"
+            },
+            "Transform": {
+                "position": [
+                    160.0,
+                    -5.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    11.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    11.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    160.0,
+                    -5.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967298": {
+        "Overrides": {
+            "Name": {
+                "name": "BoundaryTop"
+            },
+            "Transform": {
+                "position": [
+                    72.5,
+                    0.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    176.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    176.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    72.5,
+                    0.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967299": {
+        "Overrides": {
+            "Name": {
+                "name": "Player"
+            },
+            "Transform": {
+                "position": [
+                    -8.0,
+                    -10.0600004196167,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\main.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    4,
+                    4
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    8,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": 2,
+                        "start": 1,
+                        "end": 7
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 100.0,
+                "width": [
+                    0.699999988079071,
+                    1.7000000476837158
+                ],
+                "setWidthManually": true,
+                "restitutionCoeff": 1.0,
+                "forward": true,
+                "position": [
+                    -8.0,
+                    -10.160000801086426
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.10000002384185791
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    -1.2243121610141968e-29,
+                    0.000017762184143066406
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.009999999776482582,
+                "I": 28.16666603088379,
+                "invI": 0.03550295904278755,
+                "isGrounded": true
+            },
+            "CollidingWith": {},
+            "PlayerController": {
+                "acceleration": 37.0,
+                "max_jump_height": 0.75,
+                "time_to_apex": 0.5,
+                "g": 6.0,
+                "init_jump_v": 3.0,
+                "elapsed_time": 294.8626708984375,
+                "last_grounded_time": 294.8626708984375,
+                "can_jump": true,
+                "is_dashing": false,
+                "is_hiding": false,
+                "jump_released": true
+            }
+        }
+    },
+    "Entity4294967300": {
+        "Overrides": {
+            "Name": {
+                "name": "BoundaryLeft"
+            },
+            "Transform": {
+                "position": [
+                    -15.0,
+                    -5.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    11.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    20.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    11.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -15.0,
+                    -5.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967301": {
+        "Overrides": {
+            "Name": {
+                "name": "LevelChangeTrigger"
+            },
+            "Transform": {
+                "position": [
+                    156.0,
+                    -8.800000190734863,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    4.0,
+                    4.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\lightbulb.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    4.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    156.0,
+                    -8.800000190734863
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "SceneChangeTrigger": {
+                "nextScene": "Level1.json"
+            },
+            "FadeScreen": {
+                "fadeIn": true,
+                "prevSceneTr": false,
+                "alpha": 1.0,
+                "maximum": 1.0,
+                "time": 1.0
+            }
+        }
+    },
+    "Entity4294967302": {
+        "Overrides": {
+            "Name": {
+                "name": "JumpBox1"
+            },
+            "Transform": {
+                "position": [
+                    24.0,
+                    -10.5,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    1.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    24.0,
+                    -10.5
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967303": {
+        "Overrides": {
+            "Name": {
+                "name": "JumpBox2"
+            },
+            "Transform": {
+                "position": [
+                    32.0,
+                    -10.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0,
+                    2.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    2.0,
+                    2.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    32.0,
+                    -10.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967304": {
+        "Overrides": {
+            "Name": {
+                "name": "JumpBox3"
+            },
+            "Transform": {
+                "position": [
+                    148.0,
+                    -10.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    2.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    1.0,
+                    2.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    148.0,
+                    -10.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967305": {
+        "Overrides": {
+            "Name": {
+                "name": "Platform1"
+            },
+            "Transform": {
+                "position": [
+                    73.4000015258789,
+                    -10.300000190734863,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.20000000298023224
+                ],
+                "scale": [
+                    10.0,
+                    0.5,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    10.0,
+                    0.5
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    73.4000015258789,
+                    -10.300000190734863
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.20000000298023224,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967306": {
+        "Overrides": {
+            "Name": {
+                "name": "Platform2"
+            },
+            "Transform": {
+                "position": [
+                    91.0,
+                    -10.300000190734863,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    -0.20000000298023224
+                ],
+                "scale": [
+                    10.0,
+                    0.5,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\default_texture.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": false,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    10.0,
+                    0.5
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    91.0,
+                    -10.300000190734863
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": -0.20000000298023224,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            },
+            "GroundTag": {}
+        }
+    },
+    "Entity4294967307": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialMove"
+            },
+            "Transform": {
+                "position": [
+                    -8.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    16.0,
+                    16.0,
+                    1.0
+                ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialMove.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    -8.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967308": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialJump"
+            },
+            "Transform": {
+                "position": [
+                    8.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialJump.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    8.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967309": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialMoveAndJump"
+            },
+            "Transform": {
+                "position": [
+                    25.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialMoveAndJump.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    25.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967310": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialRun"
+            },
+            "Transform": {
+                "position": [
+                    46.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialRun.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    46.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967311": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialCombined"
+            },
+            "Transform": {
+                "position": [
+                    72.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialCombined.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    72.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967312": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialPause"
+            },
+            "Transform": {
+                "position": [
+                    111.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialPause.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    111.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    },
+    "Entity4294967313": {
+        "Overrides": {
+            "Name": {
+                "name": "TutorialEndLevel"
+            },
+            "Transform": {
+                "position": [
+                    135.0,
+                    -6.0,
+                    0.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+              "scale": [
+                16.0,
+                16.0,
+                1.0
+              ]
+            },
+            "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\TutorialEndLevel.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    1,
+                    1
+                ]
+            },
+            "Body": {
+                "isTrigger": true,
+                "enableRotation": false,
+                "mass": 3.4028234663852886e38,
+                "width": [
+                    16.0,
+                    4.0
+                ],
+                "setWidthManually": false,
+                "restitutionCoeff": 0.800000011920929,
+                "forward": true,
+                "position": [
+                    135.0,
+                    -6.0
+                ],
+                "positionOffset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": 0.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": 0.0,
+                "force": [
+                    0.0,
+                    0.0
+                ],
+                "torque": 0.0,
+                "friction": 0.20000000298023224,
+                "invMass": 0.0,
+                "I": 3.4028234663852886e38,
+                "invI": 0.0,
+                "isGrounded": false
+            }
+        }
+    }
+}

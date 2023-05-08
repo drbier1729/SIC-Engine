@@ -1,0 +1,36 @@
+
+{
+  "Components": {
+    "Name": {
+      "name": "Confirm Button"
+    },
+    "Transform": {
+      "position": [
+        50.0,
+        17.5,
+        0.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        88.0,
+        37.0,
+        0.0
+      ]
+    },
+    "Text": {
+      "text": "Confirm: Lose Progress & Go To Credits",
+      "scale": 0.5,
+      "color": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "SubMenuTag": {}
+  }
+}

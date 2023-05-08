@@ -1,0 +1,24 @@
+{
+  "Components": {
+    "Name": {
+      "name": "CircleEntity"
+    },
+
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 4.0, 4.0, 4.0 ]
+    },
+
+    "SpriteRenderer": {
+      "texture_file": ".\\Assets\\Sprites\\circle.png",
+      "shape": "box",
+      "tile": [ 1.0, 1.0 ],
+      "spritesheetDimension": [ 1, 1 ]
+    },
+
+    "Body": {
+      "mass": 200.0,
+      "width": [ 0.0, 0.0 ]
+    }
+  }
+}

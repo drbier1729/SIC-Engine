@@ -1,0 +1,101 @@
+{
+    "Files": [
+        {
+            "File": ".\\Assets\\Sprites\\boxtexture.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\default_texture.png"
+        },
+		{
+			"File": ".\\Assets\\Sprites\\controls-menu-texture.png"
+		},
+		{
+			"File": ".\\Assets\\Sprites\\pause-menu-texture.png"
+		},
+		{
+			"File": ".\\Assets\\Sprites\\blank-black-texture.png"
+		},
+        {
+			"File": ".\\Assets\\Sprites\\main-menu-text.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\main-char.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\main.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\platform.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\black-background.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\pushable-box.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\rotatatable-box.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\lightbulb.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\are-you-sure-menu.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialMove.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialJump.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialMoveAndJump.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialRun.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialCombined.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialPause.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TutorialEndLevel.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\Credits0.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\TeamName.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\DigiPen_Logo.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\StudentList1.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\fmod_Logo.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\StudentList2.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\Faculty.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\DigiPen.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\Libraries1.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\Libraries2.png"
+        },
+        {
+            "File": ".\\Assets\\Sprites\\GameName.png"
+        }
+    ]
+}
+

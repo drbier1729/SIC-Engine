@@ -1,0 +1,17 @@
+{
+	"Archetype": "CircleEntity.json",
+  "Components": {
+    "Name": {
+      "name": "BouncyBall"
+    },
+    "Transform": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "BouncyBallTag": {},
+    "Projectile": {}
+  }
+}

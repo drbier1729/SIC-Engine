@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestGame.cpp">
+      <Filter>Prototypes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzlePrototype.cpp">
+      <Filter>Prototypes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AISystems.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanupSystems.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSerialization.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEvents.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyEvent.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystems.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystems.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSystems.cpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorController.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\Body.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\Arbiter.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\Collide.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateController.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiWindow.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\Joint.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MemResources.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflector.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SICEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StringId.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\World.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_impl_sdl.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_stdlib.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PuzzlePrototype.h">
+      <Filter>Prototypes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGame.h">
+      <Filter>Prototypes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_impl_sdl.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imgui_stdlib.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Header Files\ComponentsSystemsEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSerialization.h">
+      <Filter>Header Files\ComponentsSystemsEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystems.h">
+      <Filter>Header Files\ComponentsSystemsEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorController.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\Arbiter.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateController.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiWindow.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MemResources.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\plf_colony.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflector.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SICEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SICTypes.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StringId.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\World.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\MathUtils.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
+    <None Include="AreYouSure.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="AreYouSureMenuLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Background.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BedroomLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BedroomLevel-1.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BedroomLevel-2.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BedroomLevel-3.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BlankBlackScreen.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BouncyBall.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="BoxEntity.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="ChangeWindowButton.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="CircleEntity.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="ConfirmGoToCredits.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="ControlsMenu.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="DynamicBox.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="EnemyEntity.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="EngineConfig.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="GroundEntity.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="KitchenLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Level1.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Level2.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Level3.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="MainMenuLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="MenuButton.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="MuteAudioButton.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="NextLevelTrigger.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="PatrolEntity.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="PauseMenuLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Platform.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Player.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Projectile.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="StaticBox.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="TestScene.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="TestSceneSave.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="TutorialLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Wall.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+    <None Include="Components.def">
+      <Filter>Def Files</Filter>
+    </None>
+    <None Include="ComponentSystems.def">
+      <Filter>Def Files</Filter>
+    </None>
+    <None Include="Events.def">
+      <Filter>Def Files</Filter>
+    </None>
+    <None Include="debug.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="debug.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="final.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="final.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="textRenderer.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="textRenderer.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="ComponentSerialization.tpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </None>
+    <None Include="Entities.tpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </None>
+    <None Include="EventManager.tpp">
+      <Filter>Source Files\ComponentsSystemsEvents</Filter>
+    </None>
+    <None Include="CreditsLevel.json">
+      <Filter>Prototypes\JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d3b4ffa8-f3b7-4cc1-ae66-3e9a38bbf210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b5639718-8952-4f76-964b-75ab141b0a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{20dabcce-bcc0-4d2b-8ae5-5a3400883fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{4bee597d-0c50-4be6-85e0-492a41024908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototypes">
+      <UniqueIdentifier>{6595180d-e165-4e90-b3b1-12ff1d1c51ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototypes\Headers">
+      <UniqueIdentifier>{e0f92f97-4165-4219-be2b-99dc6f4caeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototypes\Source">
+      <UniqueIdentifier>{3029a70c-4213-42df-ac2a-882d9b5ce6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototypes\JSON">
+      <UniqueIdentifier>{2125f0bd-8c71-4125-9d57-607da75b777f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader Files">
+      <UniqueIdentifier>{c91db30d-bdb4-4ea7-a278-70b055163dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def Files">
+      <UniqueIdentifier>{e022da2b-bfb6-4bf0-90cc-9b79886327d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{6be018a8-4512-43a4-80fd-c6b0ca52470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComponentsSystemsEvents">
+      <UniqueIdentifier>{cb885a69-9b44-43a0-8737-cb5af9fee5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{be3cd07d-daee-4134-82a2-4668dca15268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentsSystemsEvents">
+      <UniqueIdentifier>{b55e33b3-b2b3-4a97-abce-c95e9d84f8dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Sprites\lightbulb.ico" />
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+</Project>

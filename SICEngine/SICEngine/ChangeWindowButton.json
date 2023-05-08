@@ -1,0 +1,35 @@
+{
+  "Components": {
+    "Name": {
+      "name": "Toggle Fullscreen Button"
+    },
+    "Transform": {
+      "position": [
+        50.0,
+        32.5,
+        0.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        88.0,
+        37.0,
+        0.0
+      ]
+    },
+    "Text": {
+      "text": "Toggle Fullscreen/Windowed",
+      "scale": 0.5,
+      "color": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "SubMenuTag": {}
+  }
+}

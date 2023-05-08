@@ -1,0 +1,221 @@
+{
+  "Background": {
+    "Archetype": "BlankBlackScreen.json"
+  },
+  "Pause Text": {
+    "Archetype": "ControlsMenu.json",
+    "Overrides": {
+      "Transform": {
+        "position": [ 0.0, 0.0, 3.0 ],
+        "scale": [ 15.0, 15.0, 1.0 ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\pause-menu-texture.png"
+      }
+    }
+  },
+  "RESUME": {
+    "Overrides": {
+      "Name": {
+        "name": "Resume Button"
+      },
+      "Transform": {
+        "position": [
+          10.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          180.0,
+          35.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Resume",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "CONTROLS": {
+    "Overrides": {
+      "Name": {
+        "name": "Controls Button"
+      },
+      "Transform": {
+        "position": [
+          27.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          180.0,
+          35.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Controls",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "OPTIONS": {
+    "Overrides": {
+      "Name": {
+        "name": "Options Button"
+      },
+      "Transform": {
+        "position": [
+          42.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          88.0,
+          37.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Options",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "CREDITS": {
+    "Overrides": {
+      "Name": {
+        "name": "Credits Button"
+      },
+      "Transform": {
+        "position": [
+          57.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          88.0,
+          37.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Credits",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "RESTART": {
+    "Overrides": {
+      "Name": {
+        "name": "Restart Button"
+      },
+      "Transform": {
+        "position": [
+          75.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          284.0,
+          35.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Restart Level",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "QUIT": {
+    "Overrides": {
+      "Name": {
+        "name": "Quit Button"
+      },
+      "Transform": {
+        "position": [
+          90.0,
+          70.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          88.0,
+          37.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Quit",
+        "scale": 0.5,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

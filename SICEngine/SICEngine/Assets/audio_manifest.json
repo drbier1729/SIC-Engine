@@ -1,0 +1,25 @@
+{
+    "Files": [
+		{
+			"File": ".\\Assets\\Audio\\looping-guitar.mp3",
+            "Type": true
+		},
+		{
+			"File": ".\\Assets\\Audio\\footsteps.mp3",
+            "Type": false
+		},
+        {
+			"File": ".\\Assets\\Audio\\jump.mp3",
+            "Type": false
+		},
+        {
+			"File": ".\\Assets\\Audio\\thud.mp3",
+            "Type": false
+		},
+        {
+			"File": ".\\Assets\\Audio\\light_switch.mp3",
+            "Type": false
+		}
+    ]
+}
+

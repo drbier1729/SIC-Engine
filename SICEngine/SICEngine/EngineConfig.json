@@ -1,0 +1,12 @@
+{
+  "width": 800,
+  "height": 600,
+  "target frame rate": 60,
+  "dynamic memory size MB": 128,
+  "persistent memory size MB": 128,
+  "frame memory size MB": 8,
+  "controller dead zone": 8000,
+  "memory debug": true,
+  "editor mode": true,
+  "fullscreen mode":  false
+}

@@ -1,0 +1,37 @@
+{
+  "CONFIM": {
+    "Overrides": {
+      "Name": {
+        "name": "Confirm Button"
+      },
+      "Transform": {
+        "position": [
+          80.0,
+          10.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          88.0,
+          37.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Confirm",
+        "scale": 1.0,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "SubMenuTag": {}
+    }
+  }
+}

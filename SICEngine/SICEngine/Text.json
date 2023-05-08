@@ -1,0 +1,18 @@
+{
+  "Components": {
+    "Name": {
+      "name": "TextEntity"
+    },
+
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 0.0, 0.0, 0.0 ]
+    },
+
+    "Text": {
+      "index": 1,
+      "scale": 1.0,
+      "color": [1.0, 0.0, 0.0]
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "MenuText": {
+    "Archetype": "ControlsMenu.json",
+    "Overrides": {
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\main-menu-text.png"
+      }
+    }
+  },
+
+  "Entity4294967296": {
+    "Overrides": {
+      "Transform": {
+        "position": [
+          0.0,
+          0.0,
+          2.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          200.0,
+          200.0,
+          1.0
+        ]
+      },
+      "SpriteRenderer": {
+        "texture_file": ".\\Assets\\Sprites\\blank-black-texture.png",
+        "tile": [
+          1.0,
+          1.0
+        ],
+        "spritesheetDimension": [
+          1,
+          1
+        ]
+      },
+      "MenuTag": {}
+    }
+  },
+  "STARTBUTTON": {
+    "Overrides": {
+      "Name": {
+        "name": "MenuButton"
+      },
+      "Transform": {
+        "position": [
+          50.0,
+          35.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          390.0,
+          35.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Click Here to Start",
+        "scale": 1.0,
+        "color": [
+          0.5,
+          1.0,
+          0.5
+        ]
+      }
+    }
+  },
+  "QUITBUTTON": {
+    "Overrides": {
+      "Name": {
+        "name": "Quit Button"
+      },
+      "Transform": {
+        "position": [
+          50.0,
+          20.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          390.0,
+          35.0,
+          0.0
+        ]
+      },
+      "Text": {
+        "text": "Quit",
+        "scale": 1.0,
+        "color": [
+          0.5,
+          1.0,
+          0.5
+        ]
+      }
+    }
+  },
+  "SCREENFADE": {
+    "Overrides": {
+      "Name": {
+        "name": "Fader"
+      },
+      "Transform": {
+        "position": [
+          -9.0,
+          -66.5,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          8.0,
+          1.0
+        ]
+      },
+      "FadeScreen": {
+        "fadeIn": true,
+        "prevSceneTr": false,
+        "alpha": 1.0,
+        "maximum": 1.0,
+        "time": 1.0,
+        "code_index": 0
+      }
+    }
+  }
+}

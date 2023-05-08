@@ -1,0 +1,18 @@
+{
+    "Components": {
+        "Name": {
+            "name": "Background"
+        },
+
+        "Transform": {
+            "position": [0.0, 0.0, -10.0],
+            "scale": [100.0, 100.0, 100.0]
+        },
+
+        "SpriteRenderer": {
+            "texture_file": ".\\Assets\\Sprites\\background.png",
+            "shape": "box",
+            "tile": [1.0, 1.0]
+        }
+    }
+}

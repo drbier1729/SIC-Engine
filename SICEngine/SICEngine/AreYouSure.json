@@ -1,0 +1,35 @@
+{
+  "Components": {
+    "Name": {
+      "name": "Confirm Button"
+    },
+    "Transform": {
+      "position": [
+        50.0,
+        10.0,
+        0.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        88.0,
+        37.0,
+        0.0
+      ]
+    },
+    "Text": {
+      "text": "Confirm: Quit",
+      "scale": 0.5,
+      "color": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "SubMenuTag": {}
+  }
+}

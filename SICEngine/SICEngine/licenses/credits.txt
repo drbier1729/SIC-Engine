@@ -1,0 +1,38 @@
+Box2D Lite
+MIT License
+Copyright (c) 2019, Erin Catto
+
+FMOD
+Firelight Technologies Pty Ltd
+
+The FreeType Project
+Copyright 1996-2002, 2006 by
+David Turner, Robert Wilhelm, and Werner Lemberg
+
+The OpenGL Extension Wrangler Library
+Copyright (c) 2002-2007, Milan Ikits
+Copyright (c) 2002-2007, Marcelo E. Magallon
+Copyright (c) 2002, Lev Povalahev
+
+OpenGL Mathematics (GLM)
+The Happy Bunny License (Modified MIT License)
+and The MIT License
+Copyright (c) 2005-2014, G-Truc Creation
+
+Dear ImGui
+MIT License
+Copyright (c) 2014-2018, Omar Cornut
+
+PLF Colony
+zlib License
+Copyright (c) 2019, mattreecebentley
+
+RapidJSON
+Copyright (c) 2015 THL A29 Limited, a Tencent company, and Milo Yip
+
+Simple DirectMedia Layer
+zlib License
+
+Abel Font
+SIL Open Font License
+Copyright (c) 2011, Matthew Desmond, with Reserved Font Name Abel

@@ -1,0 +1,9 @@
+REGISTER_EVENT(CollisionEnter)
+REGISTER_HANDLER(UpdateCollidingWithOnCollisionEnter)
+REGISTER_HANDLER(PlaySoundOnCollisions)
+
+REGISTER_EVENT(CollisionExit)
+REGISTER_HANDLER(UpdateCollidingWithOnCollisionExit)
+
+REGISTER_EVENT(Destroy)
+REGISTER_HANDLER(DestroyEntities)

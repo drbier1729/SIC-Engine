@@ -1,0 +1,238 @@
+{
+    "Archetype": "BoxEntity.json",
+    "Components": {
+        "Name": {
+            "name": "Player"
+        },
+        "Transform": {
+            "position": [
+                -12.0,
+                -9.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                2.0,
+                2.0,
+                2.0
+            ]
+        },
+        "SpriteRenderer": {
+                "texture_file": ".\\Assets\\Sprites\\main.png",
+                "tile": [
+                    1.0,
+                    1.0
+                ],
+                "spritesheetDimension": [
+                    4,
+                    4
+                ]
+            },
+            "SpriteAnimator": {
+                "frames": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    8,
+                    9,
+                    10,
+                    11,
+                    6,
+                    7,
+                    8,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "clips": [
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 1,
+                        "start": 1,
+                        "end": 4
+                    },
+                    {
+                        "name": 2,
+                        "start": 1,
+                        "end": 7
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    },
+                    {
+                        "name": 0,
+                        "start": 0,
+                        "end": 0
+                    }
+                ]
+            },
+        "Body": {
+            "isTrigger": false,
+            "enableRotation": false,
+            "mass": 100.0,
+            "width": [
+                0.699999988079071,
+                1.7000000476837158
+            ],
+            "setWidthManually": true,
+            "restitutionCoeff": 1.0,
+            "forward": true,
+            "position": [
+                -12.0,
+                -9.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.10000000149011612
+            ],
+            "rotation": 0.0,
+            "velocity": [
+                -3.613531696089467e-9,
+                0.000017762184143066406
+            ],
+            "angularVelocity": 0.0,
+            "force": [
+                0.0,
+                0.0
+            ],
+            "torque": 0.0,
+            "friction": 0.20000000298023224,
+            "invMass": 0.009999999776482582,
+            "I": 28.16666603088379,
+            "invI": 0.03550295904278755,
+            "isGrounded": true
+        },
+        "CollidingWith": {},
+        "PlayerController": {
+            "acceleration": 37.0,
+            "max_jump_height": 0.75,
+            "time_to_apex": 0.5,
+            "g": 6.0,
+            "init_jump_v": 3.0,
+            "elapsed_time": 614.135986328125,
+            "last_grounded_time": 614.135986328125,
+            "last_dash_time": 608.7871704101563,
+            "can_jump": true,
+            "is_dashing": false,
+            "is_hiding": false,
+            "jump_released": true
+        }
+    }
+}
